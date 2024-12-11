@@ -1,0 +1,196 @@
+
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+		#my{
+			height: 600px;
+			width: 2000px;
+			float: left;
+			background-color: red;
+			margin-top: 0px;
+
+			background-image: url(https://tse3.mm.bing.net/th?id=OIP.I26QQ7JRu0w4TkMtQefTUQAAAA&pid=Api&P=0&h=180);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			position: relative;
+			top: 0px;
+		}
+		#myimg{
+			height: 300px;
+			width: 300px;
+			position: absolute;
+			top: 300px;
+			left: 0px;
+			animation-duration: 40s;
+			animation-name: amol;
+			animation-iteration-count: infinite;
+
+		}
+		@keyframes amol{
+			0%{left: 0%; transform:scaleX(1); }
+			100%{left: 100%;transform:scaleX(1);}
+						
+
+		}
+
+		.btn{
+			height: 100px;
+			width: 150px;
+			background-color: black;
+			color: white;
+			margin-top: 500px;
+			margin-left: 300px;
+		}
+		.fa{
+			font-size: 80px;
+			color: red;
+		}
+		.btnc{
+			margin-left:0px;
+		}
+		#bo1{
+			height: 200px;
+			width: 50px;
+			background-color: yellow;
+			position: absolute;
+
+			top: 0px;
+			left: 5px;
+		}
+
+		#bo4{
+			height: 100px;
+			width: 50px;
+			background-color: purple;
+			position: absolute;
+
+			top: 0px;
+			left: 20%;
+		}
+			#bo2{
+			height: 300px;
+			width: 50px;
+			background-color: red;
+			position: absolute;
+
+			bottom: 0px;
+			left: 30%;
+		}	
+		#bo3{
+			height: 250px;
+			width: 50px;
+			background-color: green;
+			box-shadow: 0px 0px 0px 10px green;
+			position: absolute;
+
+			top: 10px;
+			left: 48%;
+		}
+		#bo5{
+			height: 250px;
+			width: 50px;
+			background-color: green;
+			box-shadow: 0px 0px 0px 10px purple;
+			position: absolute;
+
+			bottom: 0px;
+			left: 68%;
+		}
+		#bo6{
+			height: 150px;
+			width: 50px;
+			background-color: black;
+			box-shadow: 0px 0px 0px 10px white;
+			position: absolute;
+
+			top: 0px;
+			left: 88%;
+		}
+		#bo7{
+			height: 200px;
+			width: 50px;
+			background-color: silver;
+			box-shadow: 0px 0px 0px 10px red;
+			position: absolute;
+
+			bottom: 0px;
+			left: 95%;
+		}
+		.spane{
+			position: absolute;
+
+			bottom: 0px;
+			right: 0px;
+		}
+
+		.spane2{
+			height: 200px;
+			width: 100px;
+			position: absolute;
+
+			bottom: 0px;
+			left: 0px;
+		}
+
+
+</style>
+</head>
+<body>
+	<div id="my">
+
+		<div id="bo1"></div>
+		<div id="bo2"></div>
+		<div id="bo3"></div>
+		<div id="bo4"></div>
+		<div id="bo5"></div>
+		<div id="bo6"></div>
+		<div id="bo7"></div>
+
+<span><img src="imeage/start1.png"></span>
+		<span class="spane"><img src="http://www.pngall.com/wp-content/uploads/2016/04/Winner-Free-Download-PNG.png" height="500px " width="150px"></span>
+	<img src="C:\Users\ASUS\Desktop\ful stack devlapment\JAVA SCRIPT\imeage\hel1.gif" id="myimg" onmouseover="stop(myimg);" onmouseout="star(myimg)">
+
+
+
+	<button onclick="top_text(myimg)" class="btn"><i class="fa fa-caret-square-o-up" class="fa"></i></button>
+	<button onclick="down_text(myimg)" class="btn" class="btnc"><i class="fa fa-caret-square-o-down" class="fa" ></i></button>
+	
+
+	<script type="text/javascript">
+		
+		function top_text(elmt)
+		{
+			// elmt.style.top="50px";
+			// alert(Number(elmt.style.top.split('px')[0]));
+
+			elmt.style.top=Number(elmt.style.top.split('px')[0])-20+"px";
+			// elmt.style.top="51px";
+
+		}
+
+		function down_text(elmt)
+		{
+			// elmt.style.top="50px";
+			// alert(Number(elmt.style.top.split('px')[0]));
+
+			elmt.style.top=Number(elmt.style.top.split('px')[0])+30+"px";
+			// elmt.style.top="51px";
+
+		}
+
+		function stop(elmt){
+			elmt.style.display="none";
+		}
+	function star(elmt){
+			elmt.style.display="block";
+		}
+
+	
+	</script>
+</div>
+</body>
+</html>

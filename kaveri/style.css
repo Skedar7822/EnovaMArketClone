@@ -1,0 +1,228 @@
+.bay
+{
+	position: fixed;
+
+	right: 10px;
+	top:1px;
+	
+     
+
+
+}
+
+.navb{
+	background-color: rgb(38,38,38);
+}
+.stap2{
+	background-color: rgb(251,163,17);
+	/*position: absolute;*/
+	margin-top:55px;
+	height: 50px;
+	text-align: center;
+
+}
+.step3{
+	background-color: rgb(251,163,17);
+	/*position: absolute;*/
+	
+	height: 130px;
+	text-align: center;
+
+}
+.step4{
+	/*position: relative;*/
+	
+	background-color: rgb(255,255,255);
+	padding: 30px;
+	color: black;
+
+
+}
+.nav2{
+	height: 100px;width: 100px;
+	color: orange;
+}
+.bag{
+	background-image: url(https://goinggreencs.com/wp-content/uploads/2020/03/AdobeStock_199161361-Cleaning-services-header-image-Resize.jpg);
+	background-size: cover;
+	
+	
+	height: 600px;
+	width: 100%;
+	color: white;
+
+}
+.button{
+	height: 60px;
+	width: 200px;
+	font-weight: bold;
+	color:black;
+
+
+
+}
+
+#work_name{
+	color: orange;
+	font-size: 18px;
+	text-align: center;
+	font:Aharoni ;
+	font-weight: bold;
+}
+#ourService_Name{
+	color: #130f40;
+	font-size: 30px;
+	font-weight: bold;
+	font: Aharoni;
+	text-align: center;
+	text-align-last: center;
+}
+.box_div{
+	height: 100px;
+	margin-top: 20px;
+	width: 100px;
+	border-radius: 50%;
+	background: white;
+	color: whitesmoke;
+	box-shadow: 0px 0px 35px -15px black;
+}
+.img{
+	height: 50px;
+	width: 50px;
+	
+	margin-top: 25px;
+
+}
+.arrow_img{
+	height: 90px;
+	width: 150px;
+	position: absolute;
+	top:30px;
+	right: 20px;
+	opacity: 0.2;
+}
+.second_box{
+	margin-top: 50px;
+}
+.text{
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	opacity: 0.9;
+}
+.no_div1{
+	height: 32px;
+	width: 18px;
+	border-radius: 7px;
+	position: absolute;
+	top: 20px;
+	left: 255px;
+	border: 2px solid white;
+}
+
+.no_div2{
+	height: 32px;
+	width: 18px;
+	border-radius: 7px;
+	position: absolute;
+	top: 15px;
+	left: 270px;
+	border: 2px solid white;
+}
+.para{
+	text-align: center;
+	font-weight:bold;
+	font-size: 16px;
+	opacity: 0.7;
+
+}
+
+.outer_second_div{
+	height: 200px;
+	width: 100px;
+	background: red;
+}
+.white_div{
+	background: white;
+	height: 150px;
+}
+.bg_img{
+	background-image: url("https://en.goodwe.com/Public/Uploads/uploadfile/images/20211222/download-pc-150.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+/*	height: 600px;*/
+
+}
+.video_box{
+	border-radius: 20px;
+	margin-top: -110px;
+	height: 450px;
+	background-image: url("https://img.freepik.com/premium-photo/smiling-asian-woman-modern-kitchen-writing-text-message-mobile-phone-beautiful-young-lady-typing-sms-online-cellphone-during-cooking-time-with-fresh-vegetables-wooden-counter-table_678158-3066.jpg?w=2000");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+.fa-play{
+	margin-top: 30px;
+}
+.play_box{
+	background: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+	position: absolute;
+	top: 55px;
+	right: 670px;
+}
+.play_box:hover{
+	background: black;
+}
+iframe{
+	border-radius: 20px;
+	display: none;
+}
+
+.increment_box{
+
+	height: 200px;
+	width: 200px;
+}
+.inner_p{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+}
+.span{
+	font-size: 50px;
+	font-weight: 700;
+	margin-left: 70px;
+
+text-align: center;
+	color: orange;
+}
+.para_span{
+	font-size: 50px;
+	font-weight: 700;
+	color: orange;
+	display: inline;
+	
+
+}
+.play_box:hover #iframe{
+	display: block;
+}
+/*https://en.goodwe.com/Public/Uploads/uploadfile/images/20211222/download-pc-150.jpg*/
+ .over_div{
+      z-index: 1111111;
+      margin-top: -180px;
+    }
+    .backgroundimg{
+      background-image: url("https://as2.ftcdn.net/v2/jpg/01/30/68/31/1000_F_130683150_MjHZZgjumPagdLOi5zaLyV8YXLhv2o7F.jpg");
+      background-repeat: no-repeat;
+      background-size: 60% 100%;
+      background-position: 0px 0px;
+    }
